@@ -1,5 +1,7 @@
 package view;
 
+import java.util.Date;
+
 public class JavaSintaxeMain {
 
 	public static void main(String[] args) {
@@ -12,6 +14,8 @@ public class JavaSintaxeMain {
 		//static int portas = 12; //variáveis static permanecem no mesmo espaço de memória, portanto são acessadas sempre no mesmo local. Isso faz com que sempre que ela é chamada, o valor dela é a ultima modificação. Ela não é inicializada para cada instância de acesso.
 		String nome = "Cassio"; //String não é um tipo primitivo, mas uma classe que representa texto e é composta de um conjunto de "chars".
 		char letra = 1; //Char é um tipo primitivo que representa um caractere a partir de um número da tabela ASCII.
+		char letra2 = 'b'; //Também funciona com aspas simples e um único caractere.
+		Date nascimento = new Date();
 	}
 
 }
